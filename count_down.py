@@ -10,7 +10,7 @@ def set_timer():
 def countdown():
 	global t
 	if t>0:
-		l1.confg(text=t)
+		l1.config(text=t)
 		t=t-1
 		l1.after(1000,countdown)
 	elif t==0:
